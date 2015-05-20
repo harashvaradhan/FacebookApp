@@ -19,6 +19,8 @@
 		E328CA2B1B0A027200F973CF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E328CA261B0A027200F973CF /* FBSDKLoginKit.framework */; };
 		E328CA2C1B0A027200F973CF /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E328CA271B0A027200F973CF /* FBSDKMessengerShareKit.framework */; };
 		E328CA2D1B0A027200F973CF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E328CA281B0A027200F973CF /* FBSDKShareKit.framework */; };
+		E32A40241B0C7D5C0006FDAD /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E32A40231B0C7D5C0006FDAD /* movie.mp4 */; };
+		E32A40261B0C88B10006FDAD /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E32A40251B0C88B10006FDAD /* lion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		E328CA261B0A027200F973CF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E328CA271B0A027200F973CF /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		E328CA281B0A027200F973CF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E32A40231B0C7D5C0006FDAD /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		E32A40251B0C88B10006FDAD /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		E328C9FA1B09FB4900F973CF /* ALLAPIS */ = {
 			isa = PBXGroup;
 			children = (
+				E32A40231B0C7D5C0006FDAD /* movie.mp4 */,
+				E32A40251B0C88B10006FDAD /* lion.jpg */,
 				E328C9FF1B09FB4900F973CF /* AppDelegate.h */,
 				E328CA001B09FB4900F973CF /* AppDelegate.m */,
 				E328CA021B09FB4900F973CF /* ViewController.h */,
@@ -227,6 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32A40241B0C7D5C0006FDAD /* movie.mp4 in Resources */,
+				E32A40261B0C88B10006FDAD /* lion.jpg in Resources */,
 				E328CA071B09FB4900F973CF /* Main.storyboard in Resources */,
 				E328CA0C1B09FB4900F973CF /* LaunchScreen.xib in Resources */,
 				E328CA091B09FB4900F973CF /* Images.xcassets in Resources */,
