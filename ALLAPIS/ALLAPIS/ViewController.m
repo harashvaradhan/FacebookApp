@@ -12,6 +12,7 @@
     FBSDKLoginButton *loginButton;
     UITableView *tblFriendList;
     UIButton *btnShare;
+    UIButton *btPush;
 }
 
 @end
@@ -41,12 +42,16 @@
     [btnShare addTarget:self action:@selector(shareOnFacebook) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnShare];
     
+    
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     NSLog(@"viewWillAppear");
     [self getFacebookFriends];
+    
+    [self base64Image];
 }
 
 -(void)viewDidAppear:(BOOL)animated{
@@ -192,6 +197,19 @@
 
 -(BOOL)validateWithError:(NSError *__autoreleasing *)errorRef{
     return YES;
+}
+
+-(void)base64Image {
+    UIImage *image = [UIImage imageNamed:@"lion.jpg"];
+    NSData *imageData = [NSData dataWithData:UIImageJPEGRepresentation(image, 0)];
+    NSString *theData = [imageData base64EncodedStringWithOptions:kNilOptions];
+    
+    NSData *plainData = [NSData dataWithData:UIImageJPEGRepresentation(image, 0)];
+    NSString *base64String = [plainData base64EncodedStringWithOptions:0];
+    NSLog(@"\n%@", base64String);
+    
+    
+    NSLog(@"Base64 String of image :\n%@",theData);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

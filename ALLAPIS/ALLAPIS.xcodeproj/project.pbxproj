@@ -21,6 +21,7 @@
 		E328CA2D1B0A027200F973CF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E328CA281B0A027200F973CF /* FBSDKShareKit.framework */; };
 		E32A40241B0C7D5C0006FDAD /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E32A40231B0C7D5C0006FDAD /* movie.mp4 */; };
 		E32A40261B0C88B10006FDAD /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E32A40251B0C88B10006FDAD /* lion.jpg */; };
+		E34815A31B0DE90500E4520D /* UploadImgaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34815A21B0DE90500E4520D /* UploadImgaeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E328CA281B0A027200F973CF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		E32A40231B0C7D5C0006FDAD /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
 		E32A40251B0C88B10006FDAD /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		E34815A11B0DE90400E4520D /* UploadImgaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImgaeViewController.h; sourceTree = "<group>"; };
+		E34815A21B0DE90500E4520D /* UploadImgaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImgaeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				E328CA081B09FB4900F973CF /* Images.xcassets */,
 				E328CA0A1B09FB4900F973CF /* LaunchScreen.xib */,
 				E328C9FB1B09FB4900F973CF /* Supporting Files */,
+				E34815A11B0DE90400E4520D /* UploadImgaeViewController.h */,
+				E34815A21B0DE90500E4520D /* UploadImgaeViewController.m */,
 			);
 			path = ALLAPIS;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E328CA041B09FB4900F973CF /* ViewController.m in Sources */,
+				E34815A31B0DE90500E4520D /* UploadImgaeViewController.m in Sources */,
 				E328CA011B09FB4900F973CF /* AppDelegate.m in Sources */,
 				E328C9FE1B09FB4900F973CF /* main.m in Sources */,
 			);
