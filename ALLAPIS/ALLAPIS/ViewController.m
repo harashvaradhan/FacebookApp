@@ -125,8 +125,8 @@
         FBSDKSharePhoto *photo = [[FBSDKSharePhoto alloc] init];
         photo.image = image;
         photo.userGenerated = YES;
-//        FBSDKSharePhotoContent *content = [[FBSDKSharePhotoContent alloc] init];
-//        content.photos = @[photo];
+        FBSDKSharePhotoContent *content = [[FBSDKSharePhotoContent alloc] init];
+        content.photos = @[photo];
         
         //Share Video
         
@@ -144,7 +144,7 @@
         
         [imagePicker setDelegate:self];
         
-        [self presentModalViewController:imagePicker animated:YES];
+//        [self presentModalViewController:imagePicker animated:YES];
         
 //        NSURL *videoURL = [info objectForKey:UIImagePickerControllerReferenceURL];
 //        NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"movie" ofType:@"mp4"]isDirectory:NO];
@@ -153,9 +153,9 @@
 //        FBSDKShareVideoContent *content = [[FBSDKShareVideoContent alloc] init];
 //        content.video = video;
 //        
-//        [FBSDKShareDialog showFromViewController:self
-//                                         withContent:content
-//                                            delegate:nil];
+        [FBSDKShareDialog showFromViewController:self
+                                         withContent:content
+                                            delegate:nil];
         // Using Graph API
 //        [FBSDKShareAPI shareWithContent:content delegate:nil];
     }
